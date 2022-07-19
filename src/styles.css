@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.App {
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+:root {
+  --secondary: #2d2d44;
+}
+body {
+  background: linear-gradient(to right, #f40076 0%, #9055ff 100%);
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+label {
+  display: block;
+  margin: auto;
+  font-size: 30px;
+  margin-bottom: 0.25rem;
+}
+input {
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-bottom: 1rem;
+  width: 35%;
+  height: 30px;
+  border-radius: 0.75rem;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+p {
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+}
+button {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  border-radius: 1rem;
+  padding: 0.35rem;
+  background: linear-gradient(to left, #f40076 0%, #9055ff 70%);
+  border: 2px solid white;
+  color: white;
+  font-family: "Lobster", cursive;
+}
